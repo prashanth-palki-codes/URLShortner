@@ -1,0 +1,143 @@
+#forgotImg{
+    width: 135px !important;
+    height: 135px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    margin-top: 5%;
+    width: 800px !important;
+    margin-bottom: 5%;
+    background-image: linear-gradient(whitesmoke,rgb(104, 104, 247));
+    box-shadow: 10px 10px 5px grey;
+    padding: 30px;
+}
+
+body{
+    letter-spacing: 2px;
+    background-image: url('assets/urlShorten.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loginBtn,#registerBtn,#shrinkBtn{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#forgotPasswordBtn,#resetPasswordBtn{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.nav-link{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+h1,h2,h3{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.badge{
+    letter-spacing: 3px;
+}
+.alert{
+    letter-spacing: 4px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+}
+#header{
+    font-size: 30px;
+    font-weight: bold;
+}
+#logoutBtn{
+    float: right;
+}
+#tableDiv{
+    margin-bottom: 30px;
+    width: 1300px;
+}
+td {
+    width: 25% ;
+    background-color: whitesmoke;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  #headerLoginBtn,#gotohomeBtn{
+      float: right;
+  }
+  #homepageContainer{
+      background-image: none;
+      background-color: whitesmoke;
+  } 
+  
+  .img-center{
+    width: 235px !important;
+    height: 235px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #shrinkedURL{
+      font-size: 20px;
+      font-weight: bold;
+      background-color: rgb(245, 178, 245);
+      padding: 10px;
+  }
+  
